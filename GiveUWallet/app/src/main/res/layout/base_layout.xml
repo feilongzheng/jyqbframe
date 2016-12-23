@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/baselayout_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/top_bar_bg" >
+
+        <!-- left -->
+
+        <ImageView
+            android:id="@+id/top_tab_left_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/default_padding_left_large"
+            android:paddingRight="@dimen/default_padding_right_large"
+            android:scaleType="center"
+            android:src="@drawable/back" />
+
+        <!-- middle -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/top_tab_center_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/progress_hud_bg"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/top_tab_center_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:maxLength="25"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/default_top_title_text"
+                android:textSize="@dimen/default_text_size" />
+        </RelativeLayout>
+        <!-- right -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/default_padding_left_large"
+            android:paddingRight="@dimen/default_padding_right_large" >
+
+            <ImageView
+                android:id="@+id/top_tab_right_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/top_tab_right_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/default_top_title_text"
+                android:textSize="@dimen/default_text_size" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/ll_baselayout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/default_background_color"
+            android:orientation="vertical" />
+
+        <com.dfppm.giveu.view.emptyview.CommonLoadingView
+            android:id="@+id/clv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

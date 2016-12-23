@@ -1,0 +1,64 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/loading_point1"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point2"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point3"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point4"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point5"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point6"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point7"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point8"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point9"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point10"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point11"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point12"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point13"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point14"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point15"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point16"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point17"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point18"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point19"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/loading_point20"
+        android:duration="60" />
+</animation-list>
